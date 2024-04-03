@@ -9,7 +9,7 @@ class MyQueue:
         while self.stack1:
             self.stack2.append(self.stack1.pop())
 
-        # Push new item to the Stack1
+       # Push new item to the Stack1
         self.stack1.append(value)
 
         # Move all the items back to Stack1
